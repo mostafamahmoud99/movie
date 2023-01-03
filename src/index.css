@@ -1,0 +1,41 @@
+body{
+  background-color: #000;
+  color: #fff;
+}
+.navbar-brand{
+  color: #f00 !important;
+  font-size: 30px;
+}
+
+.nav-link{
+  color: #fff !important;
+}
+
+.logout{
+  padding: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+.col-md-7{
+  margin: 8rem 0;
+}
+.bg-dark{
+  background-color: rgba(0,0,0,0.5);
+}
+.btn-danger{
+  background-color: #f00 !important;
+}
+
+.brder{
+  height: 2px;
+  background-color: gray;
+}
+
+@media (max-width:769px) {
+  .navbar{
+    background-color: rgba(0,0,0,0.8);
+  }
+  .nav-link{
+    padding: 10px;
+  }
+}
